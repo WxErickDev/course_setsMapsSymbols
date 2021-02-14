@@ -8,20 +8,20 @@ cliente.set('saldo', 3000);
 
 // console.log(cliente);
 
-console.log(cliente.size);
+// console.log(cliente.size);
 
-console.log(cliente.has('nombre'));
+// console.log(cliente.has('nombre'));
 
-console.log(cliente.get('nombre'));
+// console.log(cliente.get('nombre'));
 // console.log(cliente.get(true));
 
-cliente.delete('saldo');
+// cliente.delete('saldo');
 
-console.log(cliente.has('saldo'));
+// console.log(cliente.has('saldo'));
 
-console.log(cliente.get('saldo'));
+// console.log(cliente.get('saldo'));
 
-cliente.clear();
+// cliente.clear();
 
 console.log(cliente);
 
@@ -36,6 +36,6 @@ paciente.set('nombre', 'Antonio');
 console.log(paciente);
 
 paciente.forEach((datos, index) => {
-   //    console.log(datos);
-   console.log(index);
+   // console.log(datos);
+   // console.log(index);
 });

@@ -2,7 +2,6 @@ const sym = Symbol('1');
 const sym2 = Symbol('1');
 
 // Nunca un Symbol es igual a otro
-
 // console.log(Symbol() === Symbol());
 
 /* if (sym === sym2) {
@@ -28,9 +27,9 @@ persona.saldo = 500;
 // console.log(persona[nombre]);
 
 // Las propiedades que utilizan un symbol no son iterables
-for (const i in persona) {
+/* for (const i in persona) {
    console.log(i);
-}
+} */
 
 // Definir una descripcion del symbol
 const nombreCliente = Symbol('Nombre del Cliente');
